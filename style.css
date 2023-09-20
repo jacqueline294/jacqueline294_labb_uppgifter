@@ -1,9 +1,8 @@
 /*HOME PAGE*/
-@media screen and (max-width: 600px) {
 .header{
   box-sizing: border-box;
 }
-}
+
 /* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -13,10 +12,6 @@ body {
 /* Header/logo Title */
 .header {
   
-  padding: 60px;
-  text-align: center;
-  background-color:#1abc9c;
-  color: white;
   padding: 80px;
   text-align: center;
   background: #1abc9c;
@@ -25,11 +20,10 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
   color: whitesmoke;
 }
-  
-
 
 /* Increase the font size of the heading */
 .header h1 {
@@ -100,10 +94,12 @@ body {
   font-size: 2EM;
 }
 
-
 /*STYLING THE GALLERY PAGE*/
-body{
+.gallery-body{
   background-color: antiquewhite;
+}
+.galleryrow{
+  grid-template-columns:repeat();
 }
 
 
@@ -217,22 +213,25 @@ input[type=submit]:hover {
   background-color: #555;
 }
 /* STYLING ABOUT PAGE*/
+
 .about{
   background-color: #1abc9c;
   background:linear-gradient(antiquewhite,black);
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+
 }
 body{
   background-color:bisque;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   
+
 }
 h1{
   text-align: center;
   
-}
-img{
-  background-image: url("https://stock.adobe.com/images/beautiful-blurred-background-of-a-light-modern-office-interior-with-panoramic-windows-and-beautiful-lighting/616102610");
-
 }
