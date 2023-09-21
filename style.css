@@ -98,9 +98,7 @@ body {
 .gallery-body{
   background-color: antiquewhite;
 }
-.galleryrow{
-  grid-template-columns:repeat();
-}
+
 
 
 
